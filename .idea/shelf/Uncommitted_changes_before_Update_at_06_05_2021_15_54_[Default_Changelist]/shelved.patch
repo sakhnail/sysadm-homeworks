@@ -1,0 +1,34 @@
+Index: 03-sysadmin-04-os/README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>4. Да, при помощи <code>dmesg</code> можно понять, что систему запущена на виртуальной машине, о чем будут свидетельствовать, например, такие сообщения: \r\n<p><code> hv_balloon: Max. dynamic memory size: 1024 MB</code></p>\r\n<img src=\"../03-sysadmin-04-os/img/4q.JPG\">\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/03-sysadmin-04-os/README.md b/03-sysadmin-04-os/README.md
+--- a/03-sysadmin-04-os/README.md	(revision a592c404dfdfcb78eafe867da23ab4e55e080d52)
++++ b/03-sysadmin-04-os/README.md	(date 1620305624004)
+@@ -1,3 +1,21 @@
+-4. Да, при помощи <code>dmesg</code> можно понять, что систему запущена на виртуальной машине, о чем будут свидетельствовать, например, такие сообщения: 
++<p>3. Netdata собирает такие метрики как     
++    <li>cpu - Общая загрузка ЦП (все ядра). 100% здесь означает отсутствие простоя процессора.</li>
++    <li>load - Текущая загрузка системы, то есть количество процессов, использующих ЦП или ожидающих системных ресурсов (обычно ЦП и диск).</li>
++    <li>disk - Всего дисковых операций ввода-вывода для всех физических дисков.</li>
++    <li>ram - Использование системной оперативной памяти (т.е. физической памяти).</li>
++    <li>swap - Использование памяти подкачки системы.</li>
++    <li>network - Общая пропускная способность всех физических сетевых интерфейсов, однако, здесь не учитываются VPN, сетевые мосты и т.п.</li>
++    <li>processes - Системные процессы. Запущенные процессы в ЦП и заблокированые процессы.</li>
++    <li>idlejitter</li>
++    <li>interrupts - Общее количество прерываний ЦП.</li>
++    <li>softirqs - анализируется для каждого ядра процессора.</li>
++    <li>softnet - Статистика для CPU SoftIRQ, связанных с работой приема сети.</li>
++    <li>entropy</li>
++    <li>uptime</li>
++    <li>ipc semaphores</li>
++    <li>ipc shared memory</li>
++<img src="./03-sysadmin-04-os/img/3q.JPG">
++</p>
++<p>4. Да, при помощи <code>dmesg</code> можно понять, что систему запущена на виртуальной машине, о чем будут свидетельствовать, например, такие сообщения: 
+ <p><code> hv_balloon: Max. dynamic memory size: 1024 MB</code></p>
+-<img src="../03-sysadmin-04-os/img/4q.JPG">
++<img src="../03-sysadmin-04-os/img/4q.JPG"></p>

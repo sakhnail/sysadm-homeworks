@@ -24,4 +24,4 @@
 <p> чтобы изменить число процессов, которое можно создать в сессии надо изменить <code>DefaultTasksMax</code></p>
 <p><img src="../03-sysadmin-04-os/img/7_1q.JPG"></p>
 <p>которое по-умолчанию у меня в системе равно 1035</p>
-<img src="../03-sysadmin-04-os/img/7_2.JPG">
+<img src="../03-sysadmin-04-os/img/7_2q.JPG">

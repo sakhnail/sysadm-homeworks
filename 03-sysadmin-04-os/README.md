@@ -19,6 +19,10 @@
 <p>4. Да, при помощи <code>dmesg</code> можно понять, что систему запущена на виртуальной машине, о чем будут свидетельствовать, например, такие сообщения: 
 <p><code> hv_balloon: Max. dynamic memory size: 1024 MB</code></p>
 <img src="../03-sysadmin-04-os/img/4q.JPG"></p>
+<p>5. По-умолчанию fs.nr_open настроен на открытие 1048576 файлов</p>
+<img src="../03-sysadmin-04-os/img/5q.JPG">
+<p><code>ulimit -n 165635</code> увеличивает это значение, но как я понял временно до перезагрузки</p>
+<img src="../03-sysadmin-04-os/img/5_1q.JPG">
 <p>6. Сделал <code>unshare -f --pid --mount-proc sleep 1h</code>. Узнал его PID <code>ps auxf | grep sleep</code>. Зашел в этот аншеренный процесс <code>nsenter --target 70439 --pid --mount</code> (где 70439 это pid изолированного процесса). В нем уже сделал <code>ps aux</code></p>
 <p><img src="../03-sysadmin-04-os/img/6q.JPG"></p>
 <p>7. <code>:(){ :|:&amp; };:</code> это форк бомба, которая вызывает bash, который вызывает себя и так далее. При вызове <code>dmesg</code> можно увидеть, что <code>cgroup</code> помог стабилизации системы</p>

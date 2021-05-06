@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e06ee0e4-5e31-456d-909f-82acc4eb9d7a" name="Default Changelist" comment="hw3">
+    <list default="true" id="e06ee0e4-5e31-456d-909f-82acc4eb9d7a" name="Default Changelist" comment="hw7">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-sysadmin-04-os/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-sysadmin-04-os/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +68,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620319257086</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hw7">
+      <created>1620321265730</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620321265730</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hw7">
+      <created>1620321378013</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1620321378013</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +100,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hw1" />
     <MESSAGE value="hw3" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw3" />
+    <MESSAGE value="hw7" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw7" />
   </component>
 </project>

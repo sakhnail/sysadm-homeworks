@@ -1,3 +1,22 @@
+<p>1. Установил node_exporter, добавил его в автозагрузку</p>
+<img src="../03-sysadmin-04-os/img/1_1q.JPG">
+<p>2. То что выводится у меня в /metrics по умолчанию:</p> 
+<p><img src="../03-sysadmin-04-os/img/1_2q.JPG"></p>
+<p>Я бы, наверно использовал: </p>
+<li>node_cpu_seconds_total</li>
+<li>node_pressure_cpu_waiting_seconds_total</li>
+<li>node_memory_MemAvailable_bytes</li>
+<li>node_memory_MemFree_bytes</li>
+<li>node_memory_SwapCached_bytes</li>
+<li>node_memory_SwapFree_bytes</li>
+<li>node_disk_read_time_seconds_total</li>
+<li>node_disk_write_time_seconds_total</li>
+<li>node_disk_io_time_seconds_total</li>
+<li>smartmon_device_active</li>
+<li>node_network_receive_drop_total</li>
+<li>node_network_receive_errs</li>
+<li>node_network_up</li>
+
 <p>3. Netdata собирает такие метрики как     
     <li>cpu - Общая загрузка ЦП (все ядра). 100% здесь означает отсутствие простоя процессора.</li>
     <li>load - Текущая загрузка системы, то есть количество процессов, использующих ЦП или ожидающих системных ресурсов (обычно ЦП и диск).</li>

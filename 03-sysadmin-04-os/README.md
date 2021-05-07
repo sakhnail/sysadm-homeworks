@@ -1,5 +1,6 @@
 <p>1. Установил node_exporter, добавил его в автозагрузку</p>
 <img src="../03-sysadmin-04-os/img/1_1q.JPG">
+<p><img src="../03-sysadmin-04-os/img/1_3q.JPG"></p>
 <p>2. То что выводится у меня в /metrics по умолчанию:</p> 
 <p><img src="../03-sysadmin-04-os/img/1_2q.JPG"></p>
 <p>Я бы, наверно использовал: </p>

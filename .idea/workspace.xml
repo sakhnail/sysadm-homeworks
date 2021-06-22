@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e06ee0e4-5e31-456d-909f-82acc4eb9d7a" name="Default Changelist" comment="hw7">
+    <list default="true" id="e06ee0e4-5e31-456d-909f-82acc4eb9d7a" name="Default Changelist" comment="hw 09">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_05_2021_15_54_[Default_Changelist]/3q.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_05_2021_15_54_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_05_2021_15_54__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-sysadmin-04-os/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-sysadmin-04-os/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-sysadmin-07-net/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-sysadmin-07-net/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +26,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,7 +86,112 @@
       <option name="project" value="LOCAL" />
       <updated>1620321378013</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hw6">
+      <created>1620322991806</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620322991806</updated>
+    </task>
+    <task id="LOCAL-00009" summary="hw6">
+      <created>1620323652348</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620323652348</updated>
+    </task>
+    <task id="LOCAL-00010" summary="hw5">
+      <created>1620323705595</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1620323705595</updated>
+    </task>
+    <task id="LOCAL-00011" summary="hw1-2">
+      <created>1620381108148</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1620381108148</updated>
+    </task>
+    <task id="LOCAL-00012" summary="hw1-2">
+      <created>1620416270961</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620416270961</updated>
+    </task>
+    <task id="LOCAL-00013" summary="hw1-2">
+      <created>1620485820438</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1620485820438</updated>
+    </task>
+    <task id="LOCAL-00014" summary="hw05">
+      <created>1621604024890</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1621604024890</updated>
+    </task>
+    <task id="LOCAL-00015" summary="hw05-21">
+      <created>1621604245004</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1621604245004</updated>
+    </task>
+    <task id="LOCAL-00016" summary="hw06">
+      <created>1621863318514</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1621863318514</updated>
+    </task>
+    <task id="LOCAL-00017" summary="hw06">
+      <created>1622624291206</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1622624291206</updated>
+    </task>
+    <task id="LOCAL-00018" summary="hw06.1">
+      <created>1622632651787</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1622632651788</updated>
+    </task>
+    <task id="LOCAL-00019" summary="hw 07">
+      <created>1623414006262</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1623414006262</updated>
+    </task>
+    <task id="LOCAL-00020" summary="hw 08">
+      <created>1624007741563</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1624007741563</updated>
+    </task>
+    <task id="LOCAL-00021" summary="hw 09">
+      <created>1624018038794</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1624018038794</updated>
+    </task>
+    <task id="LOCAL-00022" summary="hw 09">
+      <created>1624254693240</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1624254693240</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +210,16 @@
     <MESSAGE value="hw1" />
     <MESSAGE value="hw3" />
     <MESSAGE value="hw7" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw7" />
+    <MESSAGE value="hw6" />
+    <MESSAGE value="hw5" />
+    <MESSAGE value="hw1-2" />
+    <MESSAGE value="hw05" />
+    <MESSAGE value="hw05-21" />
+    <MESSAGE value="hw06" />
+    <MESSAGE value="hw06.1" />
+    <MESSAGE value="hw 07" />
+    <MESSAGE value="hw 08" />
+    <MESSAGE value="hw 09" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 09" />
   </component>
 </project>

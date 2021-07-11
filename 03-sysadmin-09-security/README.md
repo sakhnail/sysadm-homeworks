@@ -8,3 +8,4 @@
 <img src="../03-sysadmin-09-security/img/sec93.JPG">
 <img src="../03-sysadmin-09-security/img/sec94.JPG">
 <img src="../03-sysadmin-09-security/img/sec95.JPG">
+<p>Дальше не совсем понимаю, откуда взять сертификаты, чтобы подцепить их в nginx</p>

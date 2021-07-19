@@ -6,6 +6,7 @@
 <img src="../03-sysadmin-09-security/img/sec92.JPG">
 <p>3. Cоздал Root CA и Intermediate CA</p>
 <img src="../03-sysadmin-09-security/img/sec93.JPG">
+<p>а так же сертификаты для netology.example.com</p>
 <img src="../03-sysadmin-09-security/img/sec94.JPG">
-<img src="../03-sysadmin-09-security/img/sec95.JPG">
+
 <p>Дальше не совсем понимаю, откуда взять сертификаты, чтобы подцепить их в nginx</p>

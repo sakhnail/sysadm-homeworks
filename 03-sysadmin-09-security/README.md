@@ -8,5 +8,6 @@
 <img src="../03-sysadmin-09-security/img/sec93.JPG">
 <p>а так же сертификаты для netology.example.com</p>
 <img src="../03-sysadmin-09-security/img/sec94.JPG">
-
+<p>5. Установил и настроил как службу nginx на работу с SSL сертификатами</p>
+<img src="../03-sysadmin-09-security/img/sec95.JPG">
 <p>Дальше не совсем понимаю, откуда взять сертификаты, чтобы подцепить их в nginx</p>

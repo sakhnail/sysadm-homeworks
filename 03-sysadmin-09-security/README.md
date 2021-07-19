@@ -10,4 +10,7 @@
 <img src="../03-sysadmin-09-security/img/sec94.JPG">
 <p>5. Установил и настроил как службу nginx на работу с SSL сертификатами</p>
 <img src="../03-sysadmin-09-security/img/sec95.JPG">
-<p>Дальше не совсем понимаю, откуда взять сертификаты, чтобы подцепить их в nginx</p>
+<p>6. Добавил доменное имя natology.example.com в файл hosts</p>
+<img src="../03-sysadmin-09-security/img/sec96.JPG">
+<p>Проверил, что nginx отвечает без ошибок со статусом 200:</p> 
+<img src="../03-sysadmin-09-security/img/sec97.JPG">

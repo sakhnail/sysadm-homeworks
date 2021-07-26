@@ -22,35 +22,39 @@ fi
 done</code></pre>
 <p>3. Скрипт, который проверяет доступность трёх IP: 192.168.0.1, 173.194.222.113, 87.250.250.242 по 80 порту и записывает результат в файл log:</p>
 <pre><code>#!/bin/bash
-
-for ((i=1; i<5; i++))
-    do 
-while ((1==1))
+ip=(192.168.0.1 173.194.222.113 87.250.250.242)
+for i in ${ip[@]}
+do
+x=0
+while ((x!=5))
     do
-    curl 192.168.0.1:80
-    curl 173.194.222.113:80 
-    curl 87.250.250.242:80
-if (($? != 0))
-then
-    date > curl.log
-fi
+    curl -I --connect-time 2 http://$i:80>/dev/null
+       if (($? !=0))
+          then
+          let "x+=1"
+          echo `date` " IP "$i" Not Avalible" >> log
+          else
+          echo `date` " IP "$i" Avalible" >> log
+          let "x+=1"
+       fi
 done
-done</code></pre>
+done
+</code></pre>
+<img src="../04-script-01-bash/img/4-1-b.JPG">
 <p>версия скрипта, где он выполнялся до тех пор, пока один из узлов не окажется недоступным и пишет ошибки в error-лог</p>
 <pre><code>#!/bin/bash
-
-for ((i=1; i<5; i++))
-    do 
+ip=(173.194.222.113 87.250.250.242 192.168.0.1)
 while ((1==1))
-    do
-    curl 192.168.0.1:80
-    curl 173.194.222.113:80 
-    curl 87.250.250.242:80
-if (($? != 0))
-then
-    date > curl.log
-else
-    echo "error"
-fi
+do
+for i in ${ip[@]}
+do
+sleep 2
+curl -I --connect-time 2 http://$i:80>/dev/null
+       if (($?!=0))
+	  then
+	  echo `date` " IP "$i" Not Avalible" >> error
+	  break 2
+       fi
 done
 done</code></pre>
+<img src="../04-script-01-bash/img/4-1-e.JPG">

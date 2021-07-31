@@ -1,4 +1,5 @@
-<p>1. Исправил скрипт (добавил кавычки): <pre><code>{ "info" : "Sample JSON output from our service\t",
+<p>1. Исправил скрипт (добавил кавычки):
+"info" : "Sample JSON output from our service\t",
     "elements" :[
         { "name" : "first",
         "type" : "server",

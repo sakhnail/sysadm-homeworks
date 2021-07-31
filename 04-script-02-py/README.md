@@ -8,6 +8,7 @@
 
 Результат корректировки скрипта:
 
+```python
     #!/usr/bin/env python3
     
     import os
@@ -25,8 +26,10 @@
     123
     321
     qweqweq
+```
 <p>3. Доработал скрипт выше так, чтобы он мог проверять не только локальный репозиторий в текущей директории, а также умел воспринимать путь к репозиторию, который мы передаём как входной параметр.</p>
 
+```python
     #!/usr/bin/env python3
 
     import os
@@ -43,6 +46,7 @@
         if result.find('modified') != -1:
             prepare_result = result.replace('\tmodified:   ', '')
             print(prepare_result)
+```
 
 Вывод скрипта:
 

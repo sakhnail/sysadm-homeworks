@@ -1,4 +1,6 @@
 <p>1. Исправил скрипт (добавил кавычки):
+
+````yaml
 "info" : "Sample JSON output from our service\t",
     "elements" :[
         { "name" : "first",
@@ -10,9 +12,13 @@
         "ip" : "71.78.22.43"
         }
     ]
-}</code></pre></p>
+}
+````
 <p>2. Скрипт:</p>
-<pre><code>import socket
+
+````python
+
+import socket
 import time
 import json
 import yaml
@@ -34,4 +40,4 @@ while True:
             print(f'[ERROR] {name_service} IP mismatch: {current_ip} New IP: {check_ip}')
         else:
             print(f'{name_service} - {current_ip}')
-</code></pre>
+````

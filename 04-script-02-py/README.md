@@ -58,3 +58,47 @@
     321
     qweqweq
 
+<p>4. У меня получился скрипт:</p>
+
+````python
+
+    import socket
+    import time
+    
+    ip_service = {
+        "drive.google.com": '',
+        'mail.google.com': '',
+        'google.com': ''
+        }
+    while True:
+        for name_service, current_ip in ip_service.items():
+            check_ip = socket.gethostbyname(name_service)
+            time.sleep(2)
+            if check_ip != current_ip:
+                ip_service[name_service] = check_ip
+                print(f'[ERROR] {name_service} IP mismatch: {current_ip} New IP: {check_ip}')
+            else:
+                print(f'{name_service} - {current_ip}')
+
+````
+
+Вывод скрипта:
+
+    [ERROR] drive.google.com IP mismatch:  New IP: 173.194.73.194
+    [ERROR] mail.google.com IP mismatch:  New IP: 173.194.222.83
+    [ERROR] google.com IP mismatch:  New IP: 64.233.162.102
+    drive.google.com - 173.194.73.194
+    mail.google.com - 173.194.222.83
+    google.com - 64.233.162.102
+    drive.google.com - 173.194.73.194
+    mail.google.com - 173.194.222.83
+    [ERROR] google.com IP mismatch: 64.233.162.102 New IP: 64.233.165.100
+    drive.google.com - 173.194.73.194
+    mail.google.com - 173.194.222.83
+    google.com - 64.233.165.100
+    drive.google.com - 173.194.73.194
+    [ERROR] mail.google.com IP mismatch: 173.194.222.83 New IP: 64.233.165.17
+    google.com - 64.233.165.100
+    drive.google.com - 173.194.73.194
+    mail.google.com - 64.233.165.17
+    google.com - 64.233.165.100

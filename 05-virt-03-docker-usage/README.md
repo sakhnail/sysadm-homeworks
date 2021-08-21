@@ -11,4 +11,25 @@
 - Mongodb, как основное хранилище данных для java-приложения: или физическую или виртуальную машину;
 - Jenkins-сервер: можно использовать docker.
 
-<p>2. </p>
+<p>2. Скачал и установил докер. За'pull'ил образ httd и запустил контейнер:</p>
+<p><code>docker run -p 8100:80 c8ca530172a8</code></p> <p>но не смог приаттачить свой index.html, поэтому в GUI докера при запуске контейнера примоунил папку к контейнеру у себя на компе C:/tmp в директорию /win/tmp, в нее положил свой index.html</p>
+<img src="./img/dicker1.JPG">
+<p>Далее написал свой Dockerfile</p>
+
+```editorconfig
+FROM httpd:latest
+cp /win/tmp/index.html /usr/local/apache2/htdocs/index.html
+```
+<p>пытаюсь сделать <code>docker build c:/tmp/</code>, получаю</p>
+
+```shell
+[+] Building 0.0s (2/2) FINISHED
+ => [internal] load build definition from Dockerfile                                                               0.0s
+ => => transferring dockerfile: 2B                                                                                 0.0s
+ => CANCELED [internal] load .dockerignore                                                                         0.0s
+ => => transferring context:                                                                                       0.0s
+failed to solve with frontend dockerfile.v0: failed to read dockerfile: open /var/lib/docker/tmp/buildkit-mount733594562/Dockerfile: no such file or directory
+```
+и он не появляется в списке образов
+
+<img src="./img/dicker2.JPG">

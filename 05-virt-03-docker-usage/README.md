@@ -13,7 +13,7 @@
 
 <p>2. Скачал и установил докер. За'pull'ил образ httd и запустил контейнер:</p>
 <p><code>docker run -p 8100:80 c8ca530172a8</code></p> <p>но не смог приаттачить свой index.html, поэтому в GUI докера при запуске контейнера примоунил папку к контейнеру у себя на компе C:/tmp в директорию /win/tmp, в нее положил свой index.html</p>
-<img src="./img/dicker1.JPG">
+<img src="../05-virt-03-docker-usage/img/dicker1.JPG">
 <p>Далее написал свой Dockerfile</p>
 
 ```editorconfig
@@ -32,4 +32,4 @@ failed to solve with frontend dockerfile.v0: failed to read dockerfile: open /va
 ```
 и он не появляется в списке образов
 
-<img src="./img/dicker2.JPG">
+<img src="../05-virt-03-docker-usage/img/dicker2.JPG">

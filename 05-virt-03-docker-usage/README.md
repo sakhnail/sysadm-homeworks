@@ -12,4 +12,9 @@
 - Jenkins-сервер: можно использовать docker.
 
 <p>2. <a href="https://hub.docker.com/repository/docker/sakhnail/httpd">Ссылка</a> на опубликованный образ</p>
-<p>3. </p>
+<p>3. Листинг на контейнере debian: </p>
+![img.png](img.png)
+<p> Файл info в контейнере centos:</p>
+![img_2.png](img_2.png)
+<p>Файлы на хостовой машине: </p>
+![img_3.png](img_3.png)

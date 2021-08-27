@@ -13,8 +13,8 @@
 
 <p>2. <a href="https://hub.docker.com/repository/docker/sakhnail/httpd">Ссылка</a> на опубликованный образ</p>
 <p>3. Листинг на контейнере debian: </p>
-![img.png](img.png)
+<img src="../05-virt-03-docker-usage/img/img.png">
 <p> Файл info в контейнере centos:</p>
-![img_2.png](img_2.png)
+<img src="../05-virt-03-docker-usage/img/img_2.png">
 <p>Файлы на хостовой машине: </p>
-![img_3.png](img_3.png)
+<img src="../05-virt-03-docker-usage/img/img_3.png">

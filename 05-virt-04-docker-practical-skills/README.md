@@ -18,3 +18,11 @@
 - скриншот веб-страницы:
 ![img_3.png](img_3.png)
 - <a href="https://hub.docker.com/repository/docker/sakhnail/ubuntu-jenkins">Ссылка</a> на репозиторий с образом
+<p>3. <a href="../05-virt-04-docker-practical-skills/files/Dockerfile-node">Dockerfile</a> с npm приложением</p>
+<p>вывод <code>docker network ls</code></p>
+
+![img_4.png](img_4.png)
+
+<p>скриншот вывода curl в ubuntu-контейнере</p>
+
+![img_5.png](img_5.png)

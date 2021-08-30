@@ -1,0 +1,16 @@
+FROM node
+
+WORKDIR /usr/node/
+
+RUN apt-get update && \
+    git clone https://github.com/simplicitesoftware/nodejs-demo.git
+
+WORKDIR /usr/node/nodejs-demo/
+
+RUN npm install
+RUN npm audit fix
+
+EXPOSE 3000
+
+ENTRYPOINT ["npm"]
+CMD ["start", "0.0.0.0"]

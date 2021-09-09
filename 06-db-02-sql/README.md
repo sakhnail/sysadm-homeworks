@@ -5,4 +5,19 @@ docker run --rm --name pg-docker -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=
 ```shell
 docker exec -it pg-docker psql -U postgres
 ```
-2.
+2. Создал базу данных
+![img.png](img.png)
+
+Создал пользователя test-admin-user
+
+![img_1.png](img_1.png)
+
+Назначил права на базу test-bd test-admin-user
+
+![img_3.png](img_3.png)
+
+Список таблиц и прав на них
+
+![img_4.png](img_4.png)
+![img_5.png](img_5.png)
+

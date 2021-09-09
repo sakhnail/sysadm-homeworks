@@ -62,3 +62,17 @@ EXPLAIN (ANALYZE) SELECT * FROM clients;
 <p>actual time — реальное время в миллисекундах, затраченное для получения первой строки и всех строк соответственно.</p>
 <p>rows — реальное количество строк, полученных при Seq Scan.</p>
 <p>loops — сколько раз пришлось выполнить операцию Seq Scan.</p>
+ 
+6. Создал бэкап:
+```shell
+docker exec -t pg-docker pg_dump -U postgres test_bd -f /var/lib/postgresql/data/dump-test_bd.sql
+```
+создал новый контейнер:
+```shell
+docker run --rm --name pg-docker-rest -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -e POSTGRES_DB=pgtestdb -d -p 5433:5432 -v vol1:/var/lib/postgresql/data -v vol2:/var/lib/postgresql postgres:12
+```
+восстановил дамп:
+
+![img_12.png](img_12.png)
+
+![img_13.png](img_13.png)

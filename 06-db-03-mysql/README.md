@@ -44,4 +44,4 @@ mysql -p test_db < /tmp/test_dump.sql
 
 ![img_9.png](img_9.png)
 
-4. Файл my.cnf
+4. Файл <a href="https://github.com/sakhnail/sysadm-homeworks/blob/main/06-db-03-mysql/my.cnf">my.cnf</a>

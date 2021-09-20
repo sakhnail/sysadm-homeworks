@@ -21,4 +21,19 @@ docker exec -it pg-docker psql -U postgres -W
 ```shell
 postgres=# \q
 ```
-2.
+2. Восстановил базу из дампа:
+```shell
+psql -U postgres -f /var/lib/postgresql/data/test_dump.sql test_database;
+```
+![img_3.png](img_3.png)
+
+![img_4.png](img_4.png)
+
+Вывод ANALYZE:
+
+![img_5.png](img_5.png)
+
+Столбец orders:
+
+![img_6.png](img_6.png)
+

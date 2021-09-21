@@ -37,3 +37,41 @@ psql -U postgres -f /var/lib/postgresql/data/test_dump.sql test_database;
 
 ![img_6.png](img_6.png)
 
+3. Обновил имя базы: 
+```shell
+ alter table orders rename to orders_ex;
+```
+Создал новые таблицы: 
+сначала я хотел сделать так: 
+```shell
+ create table orders (like orders_ex including all) partition by range(price);
+```
+но получил ошибку:
+
+![img_7.png](img_7.png)
+
+пришлось деать так: 
+
+```shell
+create table orders (id integer, title varchar(80), price integer) partition by range(price);
+```
+![img_8.png](img_8.png)
+
+затем создал 2 партиции: 
+правда, со второй ошибку допустил,
+![img_9.png](img_9.png)
+
+но потом поправил и зарузил данные в таблицу orders:
+
+![img_10.png](img_10.png)
+
+результат по таблицам orders_1 и orders_2
+
+![img_11.png](img_11.png)
+
+4. Создал дамп бд test_database
+
+![img_12.png](img_12.png)
+
+![img_13.png](img_13.png)
+

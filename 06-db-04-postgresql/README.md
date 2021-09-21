@@ -69,7 +69,7 @@ create table orders (id integer, title varchar(80), price integer) partition by 
 
 ![img_11.png](img_11.png)
 
-4. Создал дамп бд test_database
+4. Создал [дамп](https://github.com/sakhnail/sysadm-homeworks/blob/main/06-db-04-postgresql/test_dump_210921.sql) бд test_database
 
 ![img_12.png](img_12.png)
 

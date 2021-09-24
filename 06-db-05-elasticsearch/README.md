@@ -2,6 +2,8 @@
 
 ![img_1.png](img_1.png)
 
+[Dockerfile](https://github.com/sakhnail/sysadm-homeworks/blob/main/06-db-05-elasticsearch/Dockerfile)
+
 запустил контейнер
 
 ```shell

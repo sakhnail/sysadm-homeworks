@@ -9,8 +9,14 @@
 ```shell
 docker run -p 9200:9200 --name es-home --memory="1g" -d elasticsearch
 ```
-![img_2.png](img_2.png)
+![img_5.png](img_5.png)
 
-[Ссылка](https://hub.docker.com/repository/docker/sakhnail/elasticsearch) на репозиторий с образом
+[Ссылка](https://hub.docker.com/repository/docker/sakhnail/elastic) на репозиторий с образом
 
-2. 
+2. Список индексов и статус
+
+![img_6.png](img_6.png)
+
+![img_7.png](img_7.png)
+
+Статус <code>Yellow</code> потому что указано количество реплик, а так как это кластер, но с одним сервером, реплики невозможно создать, я так думаю.

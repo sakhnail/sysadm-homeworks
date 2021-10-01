@@ -15,8 +15,9 @@ docker run -p 9200:9200 --name es-home --memory="1g" -d elasticsearch
 
 2. Список индексов и статус
 
-![img_6.png](img_6.png)
+![img_8.png](img_8.png)
 
 ![img_7.png](img_7.png)
 
 Статус <code>Yellow</code> потому что указано количество реплик, а так как это кластер, но с одним сервером, реплики невозможно создать, я так думаю.
+

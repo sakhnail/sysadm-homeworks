@@ -35,6 +35,40 @@ curl.exe -X DELETE "127.0.0.1:9200/ind-3?pretty" {/"acknowledged/" : true}
 
 ![img_10.png](img_10.png)
 
+Зарегистрировал репозиторий
 ![img_11.png](img_11.png)
 
 ![img_12.png](img_12.png)
+
+Создал индекс test реплика 0, шард 1:
+
+```shell
+curl.exe -X PUT "127.0.0.1:9200/test?pretty" -H 'Content-Type: application/json' -d'
+>> {
+>> "settings":{
+>> "number_of_shards": 1,
+>> "number_of_replicas": 0
+>> }
+>> }
+>> ' {\"acknowledged\" : true, \"shards_acknowledged\" : true, \"index\" : "test"}
+```
+Сделал снапшот: 
+
+```shell
+curl.exe -X PUT "127.0.0.1:9200/_snapshot/netology_backup/snapshot_test?wait_for_completion=true&pretty" {\"snapshot\" : {\"snapshot\" : "snapshot_test", \"uuid\" : "LvR3VmNES2CVUii8eAPi7Q", \"version_id\" : 7130399, \"version\" : "7.13.3", \"indices\" : ["test"], \"data_streams\" : [ ], \"include_global_state\" : true, \"state\" : "SUCCESS",\"start_time\" : "2021-10-03T13:09:57.575Z",\"start_time_in_millis\" : 1626613797575,\"end_time\" : "2021-10-03T13:09:57.575Z",\"end_time_in_millis\" : 1626613797575,\"duration_in_millis\" : 0,\"failures\" : [ ],\"shards\" : {\"total\" : 1,\"failed\" : 0,\"successful\" : 1},\"feature_states\" : [ ]}}
+```
+
+Список снапшотов:
+
+![img_13.png](img_13.png)
+
+Удаление индекса test
+
+```shell
+curl.exe -X DELETE "127.0.0.1:9200/test?pretty" {\"acknowledged\" : true}
+```
+
+Создание индекса test-2
+
+![img_14.png](img_14.png)
+

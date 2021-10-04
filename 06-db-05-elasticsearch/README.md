@@ -31,3 +31,10 @@ curl.exe -X DELETE "127.0.0.1:9200/ind-3?pretty" {/"acknowledged/" : true}
 
 ![img_9.png](img_9.png)
 
+3. Создал каталог в snapshots в корневой директории ES.
+
+![img_10.png](img_10.png)
+
+![img_11.png](img_11.png)
+
+![img_12.png](img_12.png)

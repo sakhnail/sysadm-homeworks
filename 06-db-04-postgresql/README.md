@@ -75,3 +75,4 @@ create table orders (id integer, title varchar(80), price integer) partition by 
 
 ![img_13.png](img_13.png)
 
+Я бы, наверно, добавил индекс <code>CREATE UNIQUE INDEX ON orders ((lower(title)));</code>

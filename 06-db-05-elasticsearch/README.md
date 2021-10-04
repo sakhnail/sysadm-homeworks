@@ -72,3 +72,12 @@ curl.exe -X DELETE "127.0.0.1:9200/test?pretty" {\"acknowledged\" : true}
 
 ![img_14.png](img_14.png)
 
+Восстановление снапшота
+```shell
+curl.exe -X POST "127.0.0.1:9200/_snapshot/netology_backup/snapshot_test/_restore?pretty"{\"accepted\" : true}
+```
+Список индексов после восстановления
+
+![img_15.png](img_15.png)
+
+**Если честно, это самая непонятная для меня тема, я все делал по инструкциям и не знаю. на сколько правильно делал. 

@@ -75,4 +75,12 @@ create table orders (id integer, title varchar(80), price integer) partition by 
 
 ![img_13.png](img_13.png)
 
-Я бы, наверно, добавил индекс <code>CREATE UNIQUE INDEX ON orders ((lower(title)));</code>
+Добавил бы UNIQUE при создании таблицы
+
+```shell
+CREATE TABLE public.orders (
+    id integer NOT NULL,
+    title character varying(80) UNIQUE,
+    price integer DEFAULT 0
+);
+```
